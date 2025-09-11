@@ -1,0 +1,27 @@
+body {
+     font-family: "Story Script", sans-serif; ;
+  /* sets the background for all used space (if a full screen isn't used then it will fill to fit a full screen) */
+  background-color:cornflowerblue;
+  ;
+}
+
+h1 {
+  /* sets background color around the h1 text */
+  background-color: red;
+}
+.head {
+  background-color:aqua; /* sets background color around the .head text */
+  text-align: center; /* places text in the center of its parent element */
+}
+.food {
+  border: 3px solid blue;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .name {
+  border: 3px solid blue;
+  position: absolute;
+  top: 10 %;
+  left: 50%;
+  transform: translate(-50%, -50%);}
