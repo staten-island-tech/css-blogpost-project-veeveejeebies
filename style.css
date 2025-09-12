@@ -1,27 +1,47 @@
 body {
-     font-family: "Story Script", sans-serif; ;
+  font-family: "Story Script", sans-serif;
   /* sets the background for all used space (if a full screen isn't used then it will fill to fit a full screen) */
-  background-color:cornflowerblue;
-  ;
+  background-color: cornflowerblue;
 }
 
 h1 {
   /* sets background color around the h1 text */
-  background-color: red;
+  background-color: cornflowerblue;
 }
 .head {
-  background-color:aqua; /* sets background color around the .head text */
+  background-color: blue; /* sets background color around the .head text */
   text-align: center; /* places text in the center of its parent element */
+  font-size: 90px;
 }
 .food {
-  border: 3px solid blue;
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%); }
-  .name {
-  border: 3px solid blue;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+}
+.name {
   position: absolute;
   top: 10 %;
   left: 50%;
-  transform: translate(-50%, -50%);}
+  transform: translate(-50%, -50%);
+}
+.background {
+  background-image: url(https://www.shutterstock.com/image-photo/falling-italian-pepperoni-pizza-on-600nw-2489309739.jpg)
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 50 vh;
+}
+.white-box {
+    width: 1000px; /* Set the width of the box */
+    height: 150px; /* Set the height of the box */
+    background-color: white; /* Set the background color to white */
+    border: 1px solid #ccc; /* Optional: Add a light gray border */
+    padding: 20px; /* Optional: Add padding inside the box */
+    margin: 20px; /* Optional: Add margin around the box */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    padding: 10px;
