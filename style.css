@@ -1,7 +1,7 @@
 .title {
   background-color: rgb(202, 121, 99);
   text-align: center;
-  width: 2500px;
+  width: 1000px;
   margin: 50px auto;
   padding: 0px, ;
 
@@ -27,6 +27,7 @@ h1 {
   color: rgb(119, 40, 40);
   font-size: 125px;
   margin: 10px
+  
 }
 
 h2 {
